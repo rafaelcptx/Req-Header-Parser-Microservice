@@ -7,7 +7,7 @@ app.get("/api/whoami", (req, res) => {
   let userSoftware = req.headers["user-agent"];
 
   res.json({
-    ipaddres: userIp,
+    ipaddress: userIp,
     language: preferredLanguage,
     software: userSoftware,
   });
